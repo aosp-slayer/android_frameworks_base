@@ -223,6 +223,7 @@ public class SecureSettingsValidators {
          *      1 / true = left to right to advance to next
          */
         VALIDATORS.put(Secure.SKIP_DIRECTION, BOOLEAN_VALIDATOR);
+        VALIDATORS.put(Secure.FACE_UNLOCK_METHOD, BOOLEAN_VALIDATOR);
         VALIDATORS.put(Secure.SILENCE_GESTURE, BOOLEAN_VALIDATOR);
         VALIDATORS.put(Secure.THEME_CUSTOMIZATION_OVERLAY_PACKAGES, JSON_OBJECT_VALIDATOR);
         VALIDATORS.put(
